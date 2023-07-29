@@ -54,6 +54,7 @@ setalert(null);
    <Routes>
         <Route path="/about" element={<About mode={mode} />}/>
         <Route path="/" element={<Textform showalert={showalert} heading="Enter your text here" mode={mode}/>} />
+        <Route path="/Textutils" element={<Textform showalert={showalert} heading="Enter your text here" mode={mode}/>} />
           
    </Routes>
    </div>
